@@ -8,7 +8,7 @@ h1 {
   height: 50px;
   text-align: center;
   width: 200px;
-  /* Resposta */
+  /* Answer */
   display: block;
   margin-left: 200px;
 }
@@ -19,7 +19,7 @@ h1 {
   height: 50px;
   text-align: center;
   width: 300px;
-  /* Resposta */
+  /* Answer */
   display: inline-block;
 }
 
@@ -29,7 +29,7 @@ h1 {
   height: 50px;
   text-align: center;
   width: 300px;
-  /* Resposta */
+  /* Answer */
   display: inline-block;
 }
 
@@ -37,7 +37,7 @@ li {
   display: inline-block;
 }
 
-/* Resposta */
+/* Answer */
 h3 {
   text-align: center;
 }
