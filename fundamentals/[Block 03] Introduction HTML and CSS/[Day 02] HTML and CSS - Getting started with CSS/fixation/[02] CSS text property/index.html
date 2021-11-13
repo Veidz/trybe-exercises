@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS text property</title>
+    <style>
+      h1 {
+        font-size: 65px;
+        color: orange;
+        /* 1 - Modifique a família do h1 para sans-serif. */
+        font-family: sans-serif;
+      }
+      ul {
+        background-color: orchid;
+      }
+      .background-color {
+        background-color: powderblue;
+      }
+      p {
+        /* 2 - Deixe o parágrafo com o font-weight 600. */
+        font-weight: 600;
+        /* 4 - Coloque o tamanho do parágrafo com o tamanho de 3 vezes o padrão do body. */
+        font-size: 3em;
+        /* 5 - Explore as propriedades font-style, line-height, text-align e text-decoration. */
+        font-style: oblique;
+        line-height: 100px;
+        text-align: center;
+        text-decoration: underline;
+      }
+      body {
+        /* 3 - Modifique o font-size do body para 16px. */
+        font-size: 16px;
+      }
+      /* 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto. */
+      #dark-blue {
+        background-color: #15202b;
+      }
+      #wine {
+        background-color: #2c051a;
+      }
+      #magenta {
+        background-color: #a1045a;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="background-color">What is your favorite color?</p>
+    <ul class="background-color">
+      <li id="dark-blue">Dark blue</li>
+      <li id="wine">Wine</li>
+      <li id="magenta">Magenta</li>
+    </ul>
+  </body>
+</html>
