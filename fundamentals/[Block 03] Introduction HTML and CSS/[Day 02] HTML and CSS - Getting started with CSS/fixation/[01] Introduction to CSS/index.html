@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <style>
+      h1 {
+        /* 1 - Modifique o tamanho do h1 para 65 pixels. */
+        font-size: 65px;
+        /* 2 - Modifique a cor do texto do h1 para laranja. */
+        color: orange;
+      }
+      ul {
+        /* 3 - Modifique a cor de fundo da lista não ordenada. */
+        background-color: orchid;
+      }
+      /* 4 - Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo. */
+      .background-color {
+        /* Essa classe irá sobrescrever a cor de fundo da ul por conta da prioridade (id -> classe -> tag). */
+        background-color: powderblue;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="background-color">What is your favorite color?</p>
+    <ul class="background-color">
+      <li>Dark blue</li>
+      <li>Wine</li>
+      <li>Magenta</li>
+    </ul>
+  </body>
+</html>
